@@ -1,4 +1,6 @@
 fileignoreconfig:
+- filename: .github/workflows/goreleaser.yml
+  checksum: aaf4fc2ca081324a16c3fb909aecbcb594dfa9274ff1db4ebe422dc3fb75d246
 - filename: README.md
   ignore_detectors:
   - filecontent
@@ -32,3 +34,4 @@ fileignoreconfig:
   checksum: c909f6a1caefba3f196d489f9262608044be596a44793c2173ec55b98ecec649
 scopeconfig:
 - scope: go
+version: "1.0"
