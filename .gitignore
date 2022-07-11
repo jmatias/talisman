@@ -3,7 +3,6 @@
 _workspace
 *.swp
 talisman
-.idea/**
 checksums
 vendor/
 gitrepo/data/*
